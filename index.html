@@ -205,12 +205,12 @@ a:hover{color:#566c7f}
                             <div class="pub-card-body">
                                 <h5 class="title"> Bipedal locomotion foot design, control and contact sensing </h5>
                                 <p class="info">
-                                    <span class="conference"><a href="https://github.com/Qixian-Wang/Publication/blob/main/Tmech_Cassie_foot_sensing.pdf">Paper</a>
+                                    <span class="conference"><a href="https://github.com/Qixian-Wang/Publication/blob/main/Undergraduate%20Thesis.pdf">Thesis</a>
                                     <!-- <a href="https://eceseniordesign2022spring.ece.gatech.edu/sd22p37/">Website</a> / -->
                                     <!-- <a href="https://arxiv.org/abs/2302.03954">Paper</a> / -->
                                     <!-- <a href="https://github.com/GTLIDAR/DeformableObjectsGrasping/tree/master/src/grasping_framework">Code</a>  -->
                                 </p>
-                                We proposed an adaptive reconfigurable foot for bipedal locomotion. Tarsal segments and cleats are involved in the foot for slippery reduction and low-level torque control is developed to actuate the tarsals. Also, a terrain classification algorism is designed to provide more information for high-level locomotion controller. Data from a series of sensors will be gathered for foot sensing, including a newly developed tactile sensor.
+                                An adaptive robot foot design inspired by goat feet is proposed to enhance robotic motion on diverse terrains. The design features two large tarsal segments and ten needles for optimal contact efficiency and stability. Additionally, a new tactile sensor design ensures high-precision perception at reduced costs. The study also introduces a terrain recognition algorithm based on multi-sensor fusion, using machine learning to predict ground types and aid future gait planning.
                             </div>
                         </div>
                     </div>
@@ -230,6 +230,33 @@ a:hover{color:#566c7f}
                 <a href="#topic-rl" onClick="return publicationByTopicSpecific(this)" data-topic="rl">Interactive Learning</a>
                 <span class="note">(* indicates equal contribution and <sup>†</sup> indicates equal advising)</span>
             </p> -->
+                <div class="pub-card" data-year="2023" data-selected="true">
+                    <div class="row">
+                        <div class="col-l col-xs-12 col-lg-3">
+                            <img src="data/projects/JFI_figure.png" width="100%"/>
+                        </div>
+                        <div class="col-r col-xs-12 col-lg-9">
+                            <div class="pub-card-body">
+                                <h5 class="title">MimicTouch: Leveraging Multi-modal Human Tactile Demonstrations for Contact-rich Manipulation</h5>
+                                <h6 class="authors">
+                                    <a>Kelin Yu</a>,
+                                    <a>Yunhai Han</a>,
+                                    <u>Qixian Wang</u>,
+                                    <a>Vaibhav Saxena</a>,
+                                    <a href="https://faculty.cc.gatech.edu/~danfei/">Danfei Xu</a>,
+                                    <a href="https://www.me.gatech.edu/faculty/zhao">Ye Zhao</a>
+                                </h6>
+                                <p class="info">
+                                    <span class="conference">Submitted to The Conference on Robot Learning (CoRL)</span> /
+                                    <!-- <a href="https://eceseniordesign2022spring.ece.gatech.edu/sd22p37/">Website</a> / -->
+                                    <!-- <a href="https://arxiv.org/abs/2302.03954">Paper</a> / -->
+                                    <!-- <a href="https://github.com/GTLIDAR/DeformableObjectsGrasping/tree/master/src/grasping_framework">Code</a>  -->
+                                </p>
+                                Tactile sensing is crucial for fine-grained, contact-rich tasks like insertion and assembly. Prior research has explored learning tactile-guided policies from teleoperated demonstrations. However, these demonstrations often rely on visual feedback, creating a gap between visual control and tactile interest. To address this, we introduce "MimicTouch," a framework for learning policies directly from human hand demonstrations. Key innovations include: i) a system to collect multimodal tactile data for learning human tactile-guided control strategies, ii) an imitation learning framework for these strategies, and iii) an online residual RL framework to bridge the gap between human hands and robot grippers. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
                 <div class="pub-card" data-year="2023" data-selected="true">
                     <div class="row">
@@ -240,20 +267,20 @@ a:hover{color:#566c7f}
                             <div class="pub-card-body">
                                 <h5 class="title">Adaptive Robust Control of Multi-DOF Hydraulic Manipulator with Precise Online Load Estimation </h5>
                                 <h6 class="authors">
-                                    <u>Qixian Wang</u>,
-                                    <a>Manzhi Qi</a>,
+                                    <u>Qixian Wang*</u>,
+                                    <a>Manzhi Qi*</a>,
                                     <a>Yangxiu Xia</a>,
                                     <a href="https://www.researchgate.net/profile/Shizhao-Zhou-3">Shizhao Zhou</a>,
                                     <a href="https://scholar.google.com/citations?user=PvvFpuYAAAAJ&hl=en">Zheng Chen</a>
                                 </h6>
                                 <p class="info">
-                                    <span class="conference">Submitted to Journal of Franklin Institute</span> /
+                                    <span class="conference">Chinese Journal of Mechanical Engineering (Accepted)</span> /
                                     <a href="https://github.com/Qixian-Wang/Publication/blob/main/Adaptive%20Robust%20Control%20of%20Multi-DOF%20Hydraulic%20Manipulator%20with%20Precise%20Online%20Load%20Estimation.pdf">Paper</a>
                                     <!-- <a href="https://eceseniordesign2022spring.ece.gatech.edu/sd22p37/">Website</a> / -->
                                     <!-- <a href="https://arxiv.org/abs/2302.03954">Paper</a> / -->
                                     <!-- <a href="https://github.com/GTLIDAR/DeformableObjectsGrasping/tree/master/src/grasping_framework">Code</a>  -->
                                 </p>
-                                In this paper, a new load estimation method based on direct/indirect adaptive robust controller (DIARC) is proposed, which uses the backstepping strategy to cope with the high-order nonlinearity, and parameter adaptation method is applied to overcome the uncertainties which are incorporated into parametric space. Unknown load mass is included in the parametric space to realize its accurate estimation, and recursive least square adaptive law is adopted to estimate unknown parameters. Accurately estimated load mass can be further introduced into the controller to achieve better control performance. The performance of the controller is analyzed and tested on a four-degree-of-freedom hydraulic manipulator. The results indicate that the proposed method can achieve accurate online load mass estimation on the basis of high control performance. 
+                                In this paper, a new load estimation method based on direct/indirect adaptive robust controller (DIARC) is proposed, which uses the backstepping strategy to cope with the high-order nonlinearity, and parameter adaptation method is applied to overcome the uncertainties which are incorporated into parametric space. Unknown load mass is included in the parametric space to realize its accurate estimation, and recursive least square adaptive law is adopted to estimate unknown parameters. Accurately estimated load mass can be further introduced into the controller to achieve better control performance. The performance of the controller is analyzed and tested on a four-degree-of-freedom hydraulic manipulator.
                             </div>
                         </div>
                     </div>
