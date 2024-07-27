@@ -182,7 +182,64 @@ a:hover{color:#566c7f}
         </div>
         
       <div id="main-pub-container">
-
+          
+            <h5 class="subtitle">Research Projects
+            <!-- (
+                <a id="publication-by-selected" href="javascript:;", onClick="publicationBySelected();">show selected</a> /
+                <a id="publication-by-date" href="javascript:;", onClick="publicationByDate();">show all by date</a> /
+                <a id="publication-by-topic" href="javascript:;", onClick="publicationByTopic();">show all by topic</a>
+            )
+            </h5>
+            <p class="subtitle-aux"><span class="bold">Topics:</span>
+                <a href="#topic-generative-model" onClick="return publicationByTopicSpecific(this)" data-topic="generative-model">Generative Modeling</a> /
+                <a href="#topic-perception" onClick="return publicationByTopicSpecific(this)" data-topic="perception">Perception and Scene Understanding</a> /
+                <a href="#topic-rl" onClick="return publicationByTopicSpecific(this)" data-topic="rl">Interactive Learning</a>
+                <span class="note">(* indicates equal contribution and <sup>†</sup> indicates equal advising)</span>
+            </p> -->
+                <div id="main-pub-card-container" class="hide">
+                    <div class="pub-card" data-year="2023" data-selected="true">
+                        <div class="row">
+                            <div class="col-l col-xs-12 col-lg-3">
+                                <img src="data/projects/GT_figure.png" width="100%"/>
+                            </div>
+                            <div class="col-r col-xs-12 col-lg-9">
+                                <div class="pub-card-body">
+                                    <h5 class="title"> Bipedal locomotion foot design, control and contact sensing </h5>
+                                    <p class="info">
+                                        <span class="conference">Undergraduate Graduation Project</span> 
+                                        <!-- <a href="https://eceseniordesign2022spring.ece.gatech.edu/sd22p37/">Website</a> / -->
+                                        <!-- <a href="https://arxiv.org/abs/2302.03954">Paper</a> / -->
+                                        <!-- <a href="https://github.com/GTLIDAR/DeformableObjectsGrasping/tree/master/src/grasping_framework">Code</a>  -->
+                                    <p style="text-align: justify;">
+                                    An adaptive robot foot design inspired by goat feet is proposed to enhance robotic motion on diverse terrains. The design features two large tarsal segments and ten needles for optimal contact efficiency and stability. Additionally, a new tactile sensor design ensures high-precision perception at reduced costs. The study also introduces a terrain recognition algorithm based on multi-sensor fusion, using machine learning to predict ground types and aid future gait planning.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="pub-card" data-year="2023" data-selected="true">
+                        <div class="row">
+                            <div class="col-l col-xs-12 col-lg-3">
+                                <img src="data/projects/Patent_fishtail.png" width="100%"/>
+                            </div>
+                            <div class="col-r col-xs-12 col-lg-9">
+                                <div class="pub-card-body">
+                                    <h5 class="title">A fish-tail style marine energy generator</h5>
+                                    <h6 class="authors">
+                                        <u>Qixian Wang</u>
+                                    </h6>
+                                    <p class="info">
+                                        <span class="conference">Published Chinese Patent Application
+                                        <!-- <a href="https://eceseniordesign2022spring.ece.gatech.edu/sd22p37/">Website</a> / -->
+                                        <!-- <a href="https://arxiv.org/abs/2302.03954">Detail</a> / -->
+                                        <!-- <a href="https://github.com/GTLIDAR/DeformableObjectsGrasping/tree/master/src/grasping_framework">Code</a>  -->
+                                    <p style="text-align: justify;">
+                                    This invention discloses a fish-tail style tidal energy generator, addressing the issue that existing tidal energy devices are not effectively suitable for nearshore shallow waters. It offers the advantages of a large sweeping area and high power generation efficiency. In this invention, the oscillating motion of the hydrofoil is a coupled movement consisting of the horizontal swing of the crossarm and the swing of the hydrofoil. The hydrofoil oscillates left and right under the action of the water flow, converting the kinetic energy of the water flow into the mechanical energy of the crossarm's left and right oscillations. This enables the capture of tidal energy, making it more suitable for tidal power generation in nearshore shallow waters. 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
             <h5 class="subtitle">Publications
             <!-- (
                 <a id="publication-by-selected" href="javascript:;", onClick="publicationBySelected();">show selected</a> /
@@ -338,65 +395,9 @@ a:hover{color:#566c7f}
                     </div>
                 </div>
 
-             <h5 class="subtitle">Research Projects
-            <!-- (
-                <a id="publication-by-selected" href="javascript:;", onClick="publicationBySelected();">show selected</a> /
-                <a id="publication-by-date" href="javascript:;", onClick="publicationByDate();">show all by date</a> /
-                <a id="publication-by-topic" href="javascript:;", onClick="publicationByTopic();">show all by topic</a>
-            )
-            </h5>
-            <p class="subtitle-aux"><span class="bold">Topics:</span>
-                <a href="#topic-generative-model" onClick="return publicationByTopicSpecific(this)" data-topic="generative-model">Generative Modeling</a> /
-                <a href="#topic-perception" onClick="return publicationByTopicSpecific(this)" data-topic="perception">Perception and Scene Understanding</a> /
-                <a href="#topic-rl" onClick="return publicationByTopicSpecific(this)" data-topic="rl">Interactive Learning</a>
-                <span class="note">(* indicates equal contribution and <sup>†</sup> indicates equal advising)</span>
-            </p> -->
-                <div id="main-pub-card-container" class="hide">
-                    <div class="pub-card" data-year="2023" data-selected="true">
-                        <div class="row">
-                            <div class="col-l col-xs-12 col-lg-3">
-                                <img src="data/projects/GT_figure.png" width="100%"/>
-                            </div>
-                            <div class="col-r col-xs-12 col-lg-9">
-                                <div class="pub-card-body">
-                                    <h5 class="title"> Bipedal locomotion foot design, control and contact sensing </h5>
-                                    <p class="info">
-                                        <span class="conference">Undergraduate Graduation Project</span> 
-                                        <!-- <a href="https://eceseniordesign2022spring.ece.gatech.edu/sd22p37/">Website</a> / -->
-                                        <!-- <a href="https://arxiv.org/abs/2302.03954">Paper</a> / -->
-                                        <!-- <a href="https://github.com/GTLIDAR/DeformableObjectsGrasping/tree/master/src/grasping_framework">Code</a>  -->
-                                    <p style="text-align: justify;">
-                                    An adaptive robot foot design inspired by goat feet is proposed to enhance robotic motion on diverse terrains. The design features two large tarsal segments and ten needles for optimal contact efficiency and stability. Additionally, a new tactile sensor design ensures high-precision perception at reduced costs. The study also introduces a terrain recognition algorithm based on multi-sensor fusion, using machine learning to predict ground types and aid future gait planning.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+ 
     
-                    <div class="pub-card" data-year="2023" data-selected="true">
-                        <div class="row">
-                            <div class="col-l col-xs-12 col-lg-3">
-                                <img src="data/projects/Patent_fishtail.png" width="100%"/>
-                            </div>
-                            <div class="col-r col-xs-12 col-lg-9">
-                                <div class="pub-card-body">
-                                    <h5 class="title">A fish-tail style marine energy generator</h5>
-                                    <h6 class="authors">
-                                        <u>Qixian Wang</u>
-                                    </h6>
-                                    <p class="info">
-                                        <span class="conference">Published Chinese Patent Application
-                                        <!-- <a href="https://eceseniordesign2022spring.ece.gatech.edu/sd22p37/">Website</a> / -->
-                                        <!-- <a href="https://arxiv.org/abs/2302.03954">Detail</a> / -->
-                                        <!-- <a href="https://github.com/GTLIDAR/DeformableObjectsGrasping/tree/master/src/grasping_framework">Code</a>  -->
-                                    <p style="text-align: justify;">
-                                    This invention discloses a fish-tail style tidal energy generator, addressing the issue that existing tidal energy devices are not effectively suitable for nearshore shallow waters. It offers the advantages of a large sweeping area and high power generation efficiency. In this invention, the oscillating motion of the hydrofoil is a coupled movement consisting of the horizontal swing of the crossarm and the swing of the hydrofoil. The hydrofoil oscillates left and right under the action of the water flow, converting the kinetic energy of the water flow into the mechanical energy of the crossarm's left and right oscillations. This enables the capture of tidal energy, making it more suitable for tidal power generation in nearshore shallow waters. 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    
-
+                
 
             <h5 class="subtitle">Competitions<div data-year="2023" data-selected="true">
                 
